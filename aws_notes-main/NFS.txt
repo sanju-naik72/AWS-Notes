@@ -1,0 +1,14 @@
+HOST:
+=====
+
+sudo apt install nfs-kernel-server
+go to etc/exports and edit to====directory to share   i.p adress to send(rw,sync,no-subtree)
+next=======service nfs-kernel-server restart
+
+
+Client:
+=========
+
+sudo apt install nfs-common
+create a new directory 
+sudo mount (host-ip address):(directory to share) new directory

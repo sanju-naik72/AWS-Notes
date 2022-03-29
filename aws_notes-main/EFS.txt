@@ -1,0 +1,7 @@
+EFS
+
+create efs using vpc
+efs runs on port no 2049(NFS)
+on client server----install nfs-common
+--------------------is error occurs----check security group port 
+---------------------------------------check vpc dns enabled or not
